@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 100vh;
+	background: hsl(233, 47%, 7%);
+	display: grid;
+	place-items: center;
+}
+#card {
+	width: 375px;
+	background: hsl(244, 38%, 16%);
+	border-radius: 10px;
+}
+/* figure {
+	filter: opacity(10%) drop-shadow(0 0 0 purple);
+} */
+figure img {
+	background-size: cover;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+section {
+	display: grid;
+	place-items: center;
+	text-align: center;
+	padding: 40px 40px 10px 40px;
+}
+section #text {
+	margin-bottom: 40px;
+}
+section #text h1 {
+	margin-bottom: 20px;
+}
+section #text p {
+	line-height: 25px;
+}
+h1,
+h2 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+}
+p {
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 400;
+}
+section #text h1,
+h2 {
+	color: hsl(0, 0%, 100%);
+	font-size: 2em;
+}
+section #stats h2 {
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+section #text h1 span {
+	color: hsl(277, 64%, 61%);
+}
+section #text p {
+	color: hsla(0, 0%, 100%, 0.6);
+}
+section #stats p {
+	font-size: 13px;
+	color: hsla(0, 0%, 100%, 0.6);
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+section #stats ul li {
+	list-style-type: none;
+	margin-bottom: 30px;
+}
